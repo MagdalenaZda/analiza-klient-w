@@ -200,4 +200,5 @@ JOIN fact_promotions pr ON c.id = pr.id
 GROUP BY c.education, c.marital_status;
 
 
+
 DROP TABLE tmp;
