@@ -9,5 +9,8 @@ This project focuses on **uncovering distinctive customer characteristics** and 
 * **Channel Preferences:** Despite the availability of online and catalog shopping, physical stores remain the primary contact point for every age segment.
 * **Marketing:** Campaigns 3 and 4 recorded the highest response rates, suggesting superior effectiveness compared to other initiatives.
 
+## The process
+1.*Import data*
+
 ## Data Source 
 https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
