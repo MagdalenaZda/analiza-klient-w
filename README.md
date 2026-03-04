@@ -19,6 +19,25 @@ This project focuses on **uncovering distinctive customer characteristics** and 
 ```sql
 TO_DATE(dt_customer, 'DD-MM-YYYY')
 ```
+* To enhance the analytical value of the dataset, I implemented custom feature engineering by categorizing customers based on their demographic and financial profiles.
+
+#### Age-Based Segmentation
+Using the `year_birth` column, customers were grouped into life-stage categories to identify the primary age demographics:
+```sql
+age_group = CASE
+    WHEN (2026 - year_birth) < 40 THEN 'Young Adults'
+    WHEN (2026 - year_birth) BETWEEN 40 AND 49 THEN 'Established Adults'
+    WHEN (2026 - year_birth) BETWEEN 50 AND 59 THEN 'Mature Adults'
+    ELSE 'Seniors'
+END 
+```
+
+## Tools
+
+## Project Preview
 
 ## Data Source 
 https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+
+## Full Documentation
+
