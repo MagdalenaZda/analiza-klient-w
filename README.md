@@ -19,10 +19,7 @@ This project focuses on **uncovering distinctive customer characteristics** and 
 ```sql
 TO_DATE(dt_customer, 'DD-MM-YYYY')
 ```
-* To enhance the analytical value of the dataset, I implemented custom feature engineering by categorizing customers based on their demographic and financial profiles.
-
-#### Age-Based Segmentation
-Using the `year_birth` column, customers were grouped into life-stage categories to identify the primary age demographics:
+* To enhance the analytical value of the dataset, I implemented custom feature engineering by categorizing customers based on their demographic and financial profiles. Using the `year_birth` column, customers were grouped into life-stage categories to identify the primary age demographics:
 ```sql
 age_group = CASE
     WHEN (2026 - year_birth) < 40 THEN 'Young Adults'
