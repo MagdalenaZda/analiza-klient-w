@@ -44,6 +44,7 @@ To ensure a seamless analytical flow, **Mutual Cross-Filtering** has been enable
 *Documentation: GitHub
 
 ## Project Preview
+https://github.com/user-attachments/assets/8e1005ac-b9a8-42ae-8923-b6d14116dbc6
 
 ## Data Source 
 https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
